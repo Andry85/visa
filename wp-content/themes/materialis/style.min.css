@@ -9762,8 +9762,52 @@ a.hp-header-primary-button.outline:disabled {
 
 .blog-title {
     font-size: 2rem!important;
+    padding-right: 200px;
 }
 
+.services-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.services-block {
+    background-color: #fff;
+    background-color: var(--mdc-theme-surface, #fff);
+    border-radius: 2px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    padding: 2rem;
+}
+.new-price {
+    margin: 9px 0;
+    color: #81be1f;
+    font-size: 1.4rem;
+    padding: 0 15px;
+    text-align: right;
+}
+.period {
+    padding: 0 15px;
+    text-align: right;
+}
+.old-price {
+    color: #8d0000;
+    font-size: 15px;
+    text-decoration: line-through;
+    padding: 0 15px;
+    text-align: right;
+}
+
+.BorderedTitle {
+    margin-bottom: 35px;
+    text-align: center;
+}
+.BorderedTitle:after {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 2px;
+    margin: 21px auto 0;
+    background: #81B136;
+}
 
 @media (max-width:767px) {
     .header-homepage-arrow-c {

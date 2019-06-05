@@ -16,8 +16,13 @@
                         $free_vacantion = get_field('free_vacantion');
                         // check
                         if( $free_vacantion ): ?>
-                        <p class="free_vacantion">Безкоштовна вакансія</p>
-                    <?php endif; ?>
+                            <p class="free_vacantion">Безкоштовна вакансія</p>
+                        <?php endif; ?>
+
+
+
+
+                    
                 </div>    
                 <div class="post-excerpt"><?php the_content(); ?></div>
 
