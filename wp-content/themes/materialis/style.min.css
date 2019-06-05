@@ -9687,6 +9687,84 @@ a.hp-header-primary-button.outline:disabled {
     z-index: 500
 }
 
+.testimonials-4m h6 {
+    padding-bottom: 15px;
+}
+
+.viberPopup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    display: none;
+}
+.viberPopup__shadow {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.viberPopup__inner {
+    position: relative;
+    z-index: 11;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 788px;
+    max-width: 100%;
+    padding: 4rem 2rem;
+    border-radius: 5px;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+.viberPopup__text {
+    font-size: 1.2rem;
+    padding: 2rem 0;
+}
+.viberPopup__viber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+.viber-icon {
+    background: url('assets/images/viber.svg') no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    margin-right: 15px;
+}
+.viberPopup__cloze {
+    background: url('assets/images/cross.svg') no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: 25px 25px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    cursor: pointer;
+}
+.post-title-wrap {
+    position: relative;
+}
+.post-title-wrap .free_vacantion {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #81be1f;
+}
+
+.blog-title {
+    font-size: 2rem!important;
+}
+
+
 @media (max-width:767px) {
     .header-homepage-arrow-c {
         display: none

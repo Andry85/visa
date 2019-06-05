@@ -5,12 +5,21 @@
 
         <div class="flexbox">
             <div class="col-xs-12 col-padding">
-                <h3 class="post-title">
-                    <a href="<?php the_permalink(); ?>" rel="bookmark">
-                        <?php the_title(); ?>
-                    </a>
-                </h3>
-                <div class="post-excerpt"><?php the_excerpt(); ?></div>
+                <div class="post-title-wrap">
+                    <h2 class="post-title blog-title">
+                        <a href="<?php the_permalink(); ?>" rel="bookmark">
+                            <?php the_title(); ?>
+                        </a>
+                    </h2>
+                    <?php
+                        // vars 
+                        $free_vacantion = get_field('free_vacantion');
+                        // check
+                        if( $free_vacantion ): ?>
+                        <p class="free_vacantion">Безкоштовна вакансія</p>
+                    <?php endif; ?>
+                </div>    
+                <div class="post-excerpt"><?php the_content(); ?></div>
 
             </div>
         </div>
@@ -19,7 +28,7 @@
                 <?php get_template_part('template-parts/post-meta'); ?>
             </div>
             <div class="mdc-card__action-buttons col-xs-12 col-sm-fit">
-                <a href="<?php the_permalink(); ?>" class="button color2 link"><?php _e('Read more', 'materialis') ?></a>
+                <a href="<?php the_permalink(); ?>" class="button color2 link"><?php _e('Детальніше', 'materialis') ?></a>
             </div>
         </div>
 

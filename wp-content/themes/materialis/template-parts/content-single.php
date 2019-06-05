@@ -14,7 +14,16 @@
 
             ?>
             <div class="col-padding">
-                <?php materialis_single_item_title($before = "<h3>", $after = "</h3>"); ?>
+                <div class="post-title-wrap">
+                    <?php materialis_single_item_title($before = "<h2 class='blog-title'>", $after = "</h2>"); ?>
+                    <?php
+                            // vars 
+                            $free_vacantion = get_field('free_vacantion');
+                            // check
+                            if( $free_vacantion ): ?>
+                            <p class="free_vacantion">Безкоштовна вакансія</p>
+                        <?php endif; ?>
+                </div>        
                 <?php
                 the_content();
                 wp_link_pages(array(
