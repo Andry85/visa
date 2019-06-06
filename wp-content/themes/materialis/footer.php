@@ -1,8 +1,12 @@
+
 <?php
 materialis_get_footer_content();
 wp_footer();
 ?>
-
+<div class="footer-text ">
+<p>ТОВ «Робота за кордоном від Андрія Марисюка» ЄДРПОУ: 42927728 © 2014-2019. Ліцензія №860 видана міністерством соціальної політики України. Всі права захищено.</p>
+<p class="footer__designed">Розроблено - <a href="https://prostosite.vn.ua/" title="створення сайтів">«ПростоСайт»</a></p>
+</div>
 <div class="viberPopup">
 	<div class="viberPopup__shadow"></div>
 	<div class="viberPopup__inner">

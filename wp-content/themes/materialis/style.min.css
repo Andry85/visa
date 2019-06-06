@@ -9491,6 +9491,16 @@ ul.dropdown-menu.solid-active-item>.current_page_item:before {
     margin-right: 0
 }
 
+
+a.text-logo {
+     background: url('assets/images/logo.png') no-repeat;
+     width: 230px;
+     height: 50px;
+     background-size: 230px 50px;
+     text-indent: -9000px;
+     overflow: hidden;
+}
+
 a.text-logo,
 a.text-logo:hover,
 a.text-logo:visited {
@@ -9807,6 +9817,51 @@ a.hp-header-primary-button.outline:disabled {
     height: 2px;
     margin: 21px auto 0;
     background: #81B136;
+}
+
+.contactWrap {
+    padding: 2rem 0 0 0;
+}
+
+.contactBlock__icon {
+    background: url('assets/images/phone-call.svg') no-repeat;
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+    margin-right: 5px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+
+.contactBlock__icon.contactBlock__icon--email {
+    background-image: url('assets/images/mail.svg');
+   
+}
+
+.contactBlock__icon.contactBlock__icon--adress {
+    background-image: url('assets/images/placeholder.svg');
+}
+.contactBlock__icon.contactBlock__icon--work {
+    background-image: url('assets/images/stopwatch.svg');
+}
+
+.contactBlock {
+    padding: 0.5rem 2rem;
+
+}
+.contactBlock__text {
+    display: inline-block;
+}
+.contactBlock--adress {
+    margin-top: 25px;
+}
+
+.footer-text {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 10px 60px 10px;
 }
 
 @media (max-width:767px) {
@@ -16502,6 +16557,7 @@ a.icon-link i.mdi.icon {
 .contentswap-effect {
     position: relative;
     height: 100%;
+    cursor: auto!important;
 }
 
 .contentswap-effect .initial-image {
@@ -16525,7 +16581,8 @@ a.icon-link i.mdi.icon {
     top: 0;
     left: 0;
     opacity: 0;
-    z-index: 1
+    z-index: 1;
+    display: none!important;
 }
 
 .contentswap-effect .swap-inner {

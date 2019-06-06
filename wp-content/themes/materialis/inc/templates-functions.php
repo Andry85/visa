@@ -279,7 +279,7 @@ function materialis_get_footer_copyright()
 
     $copyright = '<p ' . $previewAtts . ' class="copyright">&copy;&nbsp;' . "&nbsp;" . date_i18n(__('Y', 'materialis')) . '&nbsp;' . esc_html(get_bloginfo('name')) . '.&nbsp;' . wp_kses_post($copyrightText) . '</p>';
 
-    return apply_filters('materialis_get_footer_copyright', $copyright, $previewAtts);
+    //return apply_filters('materialis_get_footer_copyright', $copyright, $previewAtts);
 }
 
 function materialis_get_footer_copyright_small()
