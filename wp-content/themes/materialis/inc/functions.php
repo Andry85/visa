@@ -3,6 +3,13 @@ materialis_require("inc/variables.php");
 materialis_require("inc/defaults-dark.php");
 materialis_require("inc/defaults.php");
 
+if( function_exists('acf_add_options_page') ) {
+    
+    acf_add_options_page();
+    
+}
+
+
 function materialis_mod_default($name, $fallback = null)
 {
     if (materialis_has_in_memory('materialis_mod_default')) {
@@ -1168,3 +1175,5 @@ function materialis_customize_save_clear_data($value)
 }
 
 add_filter("customize_save_response", "materialis_customize_save_clear_data");
+
+

@@ -528,3 +528,4 @@ function materialis_is_font_page_with_posts_only($value)
 }
 
 add_filter('materialis_is_front_page', 'materialis_is_font_page_with_posts_only');
+
