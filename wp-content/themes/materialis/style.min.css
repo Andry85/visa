@@ -7822,7 +7822,7 @@ a img.aligncenter {
     font-size: 12px
 }
 
-@media (min-width:768px) {
+@media (min-width:992px) {
     .header-top-bar {
         display: block
     }
@@ -9501,6 +9501,17 @@ a.text-logo {
      overflow: hidden;
 }
 
+@media (max-width:767px) {
+    .offcanvas-top a.text-logo {
+        margin: 0 auto;
+    }
+    a.text-logo {
+     width: 153px;
+     height: 33px;
+     background-size: 153px 33px;
+    }
+}
+
 a.text-logo,
 a.text-logo:hover,
 a.text-logo:visited {
@@ -9775,6 +9786,19 @@ a.hp-header-primary-button.outline:disabled {
     padding-right: 200px;
 }
 
+@media (max-width:767px) {
+    .blog-title {
+        padding-right: 0;
+    }
+    .post-title-wrap .free_vacantion {
+        position: static;
+    }
+    .post-content-single,.services-block {
+        text-align: left;
+    }
+}
+
+
 .services-title {
     font-size: 2rem;
     text-align: center;
@@ -9846,12 +9870,17 @@ a.hp-header-primary-button.outline:disabled {
     background-image: url('assets/images/stopwatch.svg');
 }
 
+.contactBlock__icon.contactBlock__icon--viber {
+    background-image: url('assets/images/viber-ic.svg');
+}
+
 .contactBlock {
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 0;
 
 }
 .contactBlock__text {
     display: inline-block;
+    font-size: 1.3rem;
 }
 .contactBlock--adress {
     margin-top: 25px;
@@ -11636,7 +11665,7 @@ a.post-list-item-thumb>svg.materialis-post-list-item-thumb-placeholder {
     .post-item .post-title,
     .post-list .post-list-item .post-excerpt,
     .post-list .post-list-item .post-title {
-        text-align: center
+        text-align: left;
     }
     .post-item .mdc-card__actions,
     .post-list .post-list-item .mdc-card__actions {
