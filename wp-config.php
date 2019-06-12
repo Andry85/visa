@@ -20,15 +20,15 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for local WordPress */
-// define( 'DB_NAME', 'visa' );
-// define( 'DB_USER', 'root' );
-// define( 'DB_PASSWORD', '' );
+define( 'DB_NAME', 'visa' );
+define( 'DB_USER', 'root' );
+define( 'DB_PASSWORD', '' );
 
 
 /** The name of the database for live website WordPress */
-define( 'DB_NAME', 'visa' );
-define( 'DB_USER', 'visa' );
-define( 'DB_PASSWORD', 'I#@@utOTj' );
+// define( 'DB_NAME', 'visa' );
+// define( 'DB_USER', 'visa' );
+// define( 'DB_PASSWORD', 'I#@@utOTj' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
