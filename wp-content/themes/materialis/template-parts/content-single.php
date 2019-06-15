@@ -21,7 +21,7 @@
                             $free_vacantion = get_field('free_vacantion');
                             // check
                             if( $free_vacantion ): ?>
-                            <p class="free_vacantion">Безкоштовна вакансія</p>
+                            <p class="free_vacantion">Бесплатные вакансии</p>
                         <?php endif; ?>
                 </div>        
                 <?php
