@@ -13,7 +13,7 @@ wp_footer();
 		<div class="viberPopup__cloze"></div>
 		<h2 class="viberPopup__title">Оставить отзыв</h2>
 		<p class="viberPopup__text">Спасибо, что сотрудничали с нами! <br>Для того, чтобы оставить отзыв - напишите нам в Viber, <br>и мы с радостью его опубликуем!</p>
-		<div class="viberPopup__viber"><span class="viber-icon"></span>+380955598344</div>
+		<div class="viberPopup__viber"><span class="viber-icon"></span><a href="viber://chat?number=+380955598344">+380955598344</a></div>
 	</div>
 	
 </div>
