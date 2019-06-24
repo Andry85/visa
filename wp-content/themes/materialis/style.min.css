@@ -7717,12 +7717,15 @@ a img.aligncenter {
 }
 
 .header-top-bar-inner {
-    height: 40px
+    height: 40px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 .header-top-bar-area {
     position: relative;
-    display: flex
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header-top-bar-area.area-left .top-bar-social-icons a:first-of-type {
