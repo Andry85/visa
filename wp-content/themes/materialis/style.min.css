@@ -9497,9 +9497,9 @@ ul.dropdown-menu.solid-active-item>.current_page_item:before {
 
 a.text-logo {
      background: url('assets/images/logo-new.png') no-repeat;
-     width: 163px;
-     height: 70px;
-     background-size: 163px 70px;
+     width: 173px;
+     height: 60px;
+     background-size: 173px 60px;
      text-indent: -9000px;
      overflow: hidden;
 }
@@ -9508,11 +9508,7 @@ a.text-logo {
     .offcanvas-top a.text-logo {
         margin: 0 auto;
     }
-    a.text-logo {
-     width: 153px;
-     height: 33px;
-     background-size: 153px 33px;
-    }
+
 }
 
 a.text-logo,
