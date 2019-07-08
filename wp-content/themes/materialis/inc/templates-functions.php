@@ -214,7 +214,7 @@ function materialis_print_logo($footer = false)
 
         the_custom_logo();
     } else {
-        printf('<a class="text-logo" data-type="group" ' . $preview_atts . ' data-dynamic-mod="true" href="%1$s">%2$s</a>', esc_url(home_url('/')), materialis_bold_text(get_bloginfo('name')));
+        printf('<a class="text-logo" data-type="group" ' . $preview_atts . ' data-dynamic-mod="true" href="%1$s"><span>%2$s</span></a>', esc_url(home_url('/')), materialis_bold_text(get_bloginfo('name')));
     }
 }
 
