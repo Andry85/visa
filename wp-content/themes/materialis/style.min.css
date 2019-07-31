@@ -2290,6 +2290,10 @@ body #page a {
     font-weight: 300
 }
 
+.lead a {
+    color: #fff;
+}
+
 .button,
 input[type=submit] {
     font-family: Roboto, sans-serif;
