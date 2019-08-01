@@ -5,7 +5,7 @@ wp_footer();
 ?>
 <div class="footer-text ">
 <p>«Робота в Європі для своїх» 2012-2019.</p>
-<p class="footer__designed">Рорзроблено - <a href="https://prostosite.vn.ua/" title="створення сайтів">«ПростоСайт»</a></p>
+<p class="footer__designed">Розроблено - <a href="https://prostosite.vn.ua/" title="створення сайтів">«ПростоСайт»</a></p>
 </div>
 <div class="viberPopup">
 	<div class="viberPopup__shadow"></div>
@@ -13,7 +13,7 @@ wp_footer();
 		<div class="viberPopup__cloze"></div>
 		<h2 class="viberPopup__title">Залишити відгук</h2>
 		<p class="viberPopup__text">Спасибі, що співпрацювали з нами! <br>Для того, щоб залишити відгук - напишіть нам в Viber, <br>і ми з радістю його опублікуємо!</p>
-		<div class="viberPopup__viber"><span class="viber-icon"></span><a href="viber://chat?number=+380505081732">+380505081732</a></div>
+		<div class="viberPopup__viber"><span class="viber-icon"></span><a href="viber://add?number=+380505081732">+380505081732</a></div>
 	</div>
 	
 </div>
