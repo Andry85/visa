@@ -9786,6 +9786,14 @@ a.hp-header-primary-button.outline:disabled {
     height: 35px;
     background-size: 35px 35px;
     margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.viberPopup__viber i {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 35px;
+    font-style: normal;
 }
 .viberPopup__cloze {
     background: url('assets/images/cross.svg') no-repeat;
