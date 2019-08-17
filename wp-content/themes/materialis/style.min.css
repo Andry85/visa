@@ -1148,6 +1148,7 @@ body {
     text-align: center
 }
 
+
 @media (min-width:768px) {
     body {
         text-align: left
@@ -2163,6 +2164,35 @@ a.muted:hover {
 .nowrap td {
     white-space: nowrap
 }
+
+.viber-section  {
+
+}
+.viber-section a {
+    background: #7b519c;
+    border-radius: 25px;
+    display: block;
+    width: 280px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.viber-section a:before {
+    content: '';
+    background-image: url(assets/images/viber-ic.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    width: 25px;
+    height: 26px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(0,-50%)
+}
+
+
 
 @media (min-width:768px) and (max-width:1024px) {
     .columns-2,

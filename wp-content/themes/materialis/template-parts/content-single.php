@@ -21,7 +21,7 @@
                             $free_vacantion = get_field('free_vacantion');
                             // check
                             if( $free_vacantion ): ?>
-                            <p class="free_vacantion">Бесплатные вакансии</p>
+                            <p class="free_vacantion">Вакансія безкоштовна</p>
                         <?php endif; ?>
                 </div>        
                 <?php
@@ -36,7 +36,11 @@
                 ));
                 ?>
                 <?php echo get_the_tag_list('<p class="tags-list"><i data-cp-mdi="true" class="font-icon-25 fa fa-tags"></i>&nbsp;', ' ', '</p>'); ?>
+                <div class="viber-section">
+		        	<a href="viber://pa?chatURI=robotadlyasvoikh">Viber</a>
+		        </div>
             </div>
+
         </div>
         <?php get_template_part('template-parts/post-single-meta') ?>
     </div>
