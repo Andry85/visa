@@ -9810,6 +9810,9 @@ a.hp-header-primary-button.outline:disabled {
     align-items: center;
     font-size: 1.6rem;
 }
+.viberPopup__viber--mobile {
+    display: none;
+}
 .viber-icon {
     background: url('assets/images/viber.svg') no-repeat;
     width: 35px;
@@ -9859,6 +9862,12 @@ a.hp-header-primary-button.outline:disabled {
     }
     .post-content-single,.services-block {
         text-align: left;
+    }
+    .viberPopup__viber--desktop {
+        display: none;
+    }
+    .viberPopup__viber--mobile {
+        display: block;
     }
 }
 
