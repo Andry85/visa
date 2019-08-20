@@ -7734,7 +7734,6 @@ a img.aligncenter {
 
 .header-top-bar {
     background-color: #222;
-    display: none;
     padding-left: 5%;
     padding-right: 5%
 }
@@ -7859,9 +7858,19 @@ a img.aligncenter {
     font-size: 12px
 }
 
+.header-top-bar-area.area-left {
+    visibility: hidden;
+}
+
 @media (min-width:992px) {
-    .header-top-bar {
-        display: block
+    .header-top-bar-area.area-left {
+       visibility: visible;
+    }
+}
+
+@media (max-width:991px) {
+    .header-top-bar-area.area-left {
+       display: none;
     }
 }
 
