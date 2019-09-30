@@ -11484,7 +11484,7 @@ html.has-offscreen.offcanvas-opened body:after {
 
 .post-item img.attachment-post-thumbnail,
 .post-list-item img.attachment-post-thumbnail {
-    width: auto
+    width: 100%;
 }
 
 .post-item.multiple-per-row img.attachment-post-thumbnail,
